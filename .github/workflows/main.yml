@@ -13,13 +13,14 @@ jobs:
       - name: Setup environment variables 🔧
         run: |
           echo "PUBLIC_URL=$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | sed -e "s/:refs//" | awk '{print "/"$1"/"}')" >> $GITHUB_ENV
-          echo "REACT_APP_MAPBOX_ACCESS_TOKEN=${{ secrets.MAPBOX_ACCESS_TOKEN }}" >> $GITHUB_ENV
         shell: bash
 
       - name: Install and Build 🔧
         run: |
           yarn
           yarn build
+        env:
+          REACT_APP_MAPBOX_ACCESS_TOKEN: ${{ secrets.MAPBOX_ACCESS_TOKEN }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
