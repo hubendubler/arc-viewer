@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/arc-viewer/static/css/main.4579a7c3.chunk.css",
-    "main.js": "/arc-viewer/static/js/main.232af67d.chunk.js",
-    "main.js.map": "/arc-viewer/static/js/main.232af67d.chunk.js.map",
+    "main.css": "/arc-viewer/static/css/main.c8396fdb.chunk.css",
+    "main.js": "/arc-viewer/static/js/main.b01d7bc8.chunk.js",
+    "main.js.map": "/arc-viewer/static/js/main.b01d7bc8.chunk.js.map",
     "runtime-main.js": "/arc-viewer/static/js/runtime-main.d22a881c.js",
     "runtime-main.js.map": "/arc-viewer/static/js/runtime-main.d22a881c.js.map",
-    "static/js/2.eff523b4.chunk.js": "/arc-viewer/static/js/2.eff523b4.chunk.js",
-    "static/js/2.eff523b4.chunk.js.map": "/arc-viewer/static/js/2.eff523b4.chunk.js.map",
+    "static/js/2.b93614d3.chunk.js": "/arc-viewer/static/js/2.b93614d3.chunk.js",
+    "static/js/2.b93614d3.chunk.js.map": "/arc-viewer/static/js/2.b93614d3.chunk.js.map",
     "index.html": "/arc-viewer/index.html",
-    "static/css/main.4579a7c3.chunk.css.map": "/arc-viewer/static/css/main.4579a7c3.chunk.css.map",
-    "static/js/2.eff523b4.chunk.js.LICENSE.txt": "/arc-viewer/static/js/2.eff523b4.chunk.js.LICENSE.txt",
+    "static/css/main.c8396fdb.chunk.css.map": "/arc-viewer/static/css/main.c8396fdb.chunk.css.map",
+    "static/js/2.b93614d3.chunk.js.LICENSE.txt": "/arc-viewer/static/js/2.b93614d3.chunk.js.LICENSE.txt",
     "static/media/arc-viewer-logo.e6796b8f.png": "/arc-viewer/static/media/arc-viewer-logo.e6796b8f.png",
     "static/media/DataFetcher.scss": "/arc-viewer/static/media/page-background.19311caf.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d22a881c.js",
-    "static/js/2.eff523b4.chunk.js",
-    "static/css/main.4579a7c3.chunk.css",
-    "static/js/main.232af67d.chunk.js"
+    "static/js/2.b93614d3.chunk.js",
+    "static/css/main.c8396fdb.chunk.css",
+    "static/js/main.b01d7bc8.chunk.js"
   ]
 }
