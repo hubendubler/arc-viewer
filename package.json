@@ -1,0 +1,13 @@
+{
+    "name": "arc-viewer",
+    "version": "1.0.0",
+    "description": "View your Arc App data in the browser",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hubendubler/arc-viewer.git"
+    },
+    "author": "hubendubler <hubendubler@users.noreply.github.com>",
+    "license": "MIT",
+    "private": false
+}
