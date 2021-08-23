@@ -32,23 +32,7 @@ module.exports = {
         semi: ['error', 'always'],
         'import/prefer-default-export': 'off',
         'import/no-default-export': 'error',
-        'unicorn/filename-case': [
-            "error",
-            {
-                "cases": {
-                    "camelCase": true,
-                    "pascalCase": true,
-                },
-                "ignore": [
-                    'react-app-env.d.ts'
-                ]
-            }
-        ],
-        'unicorn/prevent-abbreviations': [
-            "error",
-            {
-                checkFilenames: false
-            }
-        ],
+        'unicorn/filename-case': 'off',
+        'unicorn/prevent-abbreviations': 'off',
     }
 };
