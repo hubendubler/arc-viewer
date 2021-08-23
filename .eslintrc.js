@@ -34,5 +34,6 @@ module.exports = {
         'import/no-default-export': 'error',
         'unicorn/filename-case': 'off',
         'unicorn/prevent-abbreviations': 'off',
+        'no-console': 'off',
     }
 };

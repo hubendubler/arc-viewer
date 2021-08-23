@@ -1,0 +1,18 @@
+{
+    "data_fetcher": {
+        "welcome": "Willkommen im",
+        "info": "Klicke hier oder ziehe beliebige Arc JSON Dateien hierher um fortzufahren",
+        "info_while_dragging": "Ziehe beliebige Arc JSON Dateien hierher um fortzufahren",
+        "loading": "Lade Daten..."
+    },
+    "mapview": {
+        "animation": {
+            "play": "Play",
+            "pause": "Pause",
+            "frames_per_second": "Bilder pro Sekunde",
+            "sample_increment_per_frame": "Samples springen pro Frame",
+            "info": "Controls verstecken mit (H), Play/Pause mit (SPACE)"
+        },
+        "sample_1_to_x_of_y": "Sample 1-{{x}} von {{y}}"
+    }
+}
