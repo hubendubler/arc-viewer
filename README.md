@@ -14,7 +14,7 @@ your [Mapbox account](https://account.mapbox.com/).
 Place the token in a `.env.local` file in the root of the repository:
 
 ```
-MAPBOX_ACCESS_TOKEN=XXXXXXXXXXXXXXXX
+REACT_APP_MAPBOX_ACCESS_TOKEN=XXXXXXXXXXXXXXXX
 ```
 
 For the environment to start, first install the dependencies
