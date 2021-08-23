@@ -18,4 +18,4 @@ MAPBOX_ACCESS_TOKEN=XXXXXXXXXXXXXXXX
 ```
 
 For the environment to start, first install the dependencies
-via `npm install`, then run `npm run start`.
+via `yarn`, then run `yarn start`.
