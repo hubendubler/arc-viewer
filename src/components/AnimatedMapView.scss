@@ -1,0 +1,119 @@
+@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import "../variables";
+@import "../interfaces/ActivityType.scss";
+
+.deckgl-wrapper {
+    width: 100%;
+    height: 536px;
+    position: relative;
+}
+
+.button {
+    display: block;
+    border: none;
+    width: 100%;
+    outline: none;
+    margin-top: 12px;
+    padding: 6px 12px;
+    background-color: $activity_walking;
+    color: $font_color_inverted;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: $font;
+}
+
+.button:hover {
+    background-color: lighten($activity_walking, 10%);
+}
+
+.controls {
+    display: block;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 99999;
+    padding: 15px;
+    background-color: $container_background;
+    box-shadow: $container_shadow;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+
+    td {
+        padding: 3px 7px;
+        min-width: 60px;
+    }
+
+    td:first-child {
+        color: $context_color2;
+        font-weight: 700;
+    }
+
+    tr:last-child {
+        font-weight: 700;
+        color: $context_color;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+}
+
+.timeline {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    z-index: 99999;
+    padding: 24px 12px;
+    background-color: $container_background;
+    box-shadow: $container_shadow;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+
+    input[type=range] {
+        width: 100%;
+    }
+
+    .currentDate {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    .date-range {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+    }
+}
+
+.activity-timeline {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 6px;
+    margin: 7px 0;
+
+    div {
+        position: absolute;
+        height: 100%;
+        top: 0;
+
+        &.place {
+            background-color: darken($container_background, 10);
+        }
+    }
+}

@@ -1,0 +1,25 @@
+$font: 'Roboto', sans-serif;
+$font_color: #272727;
+$font_color_inverted: #fff;
+$context_color: #737373;
+$context_color2: #929292;
+
+$container_background: #fff;
+$container_shadow_opacity: 0.1;
+$container_shadow: 0 4px 6px transparentize(#000, 1.0 - $container_shadow_opacity);
+
+$body_background: darken($container_background, 10);
+
+$icon_color: #4E566B;
+
+$activity_walking: hsl(148, 80, 36);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 25px;
+    background-color: $body_background;
+    font-family: $font;
+}

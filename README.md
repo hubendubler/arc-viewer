@@ -11,7 +11,7 @@ a simple timeline for animations.
 For local development, a Mapbox access token is required. You can create one in
 your [Mapbox account](https://account.mapbox.com/).
 
-Place the token in a `.env` file in the root of the repository:
+Place the token in a `.env.local` file in the root of the repository:
 
 ```
 MAPBOX_ACCESS_TOKEN=XXXXXXXXXXXXXXXX

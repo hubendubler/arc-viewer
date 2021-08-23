@@ -1,0 +1,59 @@
+$colors: (
+    tronLightBlue: #a1fefe,
+    tronDarkBlue: #004242,
+    white: #FFFFFF,
+    black: #000000
+);
+
+$activity-colors: (
+    motorcycle: hsl(8, 74, 57),
+    scooter: hsl(8, 74, 57),
+    running: hsl(27, 84, 51),
+    tuktuk: hsl(41, 72, 41),
+    songthaew: hsl(41, 72, 41),
+    tram: hsl(48, 55, 43),
+    train: hsl(48, 55, 43),
+    skiLift: hsl(48, 55, 43),
+    metro: hsl(48, 55, 43),
+    funicular: hsl(48, 55, 43),
+    chairlift: hsl(48, 55, 43),
+    cableCar: hsl(48, 55, 43),
+    walking: hsl(148, 80, 36),
+    wheelchair: hsl(148, 80, 36),
+    golf: hsl(148, 80, 36),
+    skateboarding: hsl(186, 76, 39),
+    cycling: hsl(196, 97, 42),
+    swimming: hsl(196, 97, 42),
+    rowing: hsl(196, 97, 42),
+    kayaking: hsl(196, 97, 42),
+    snowboarding: hsl(205, 41, 48),
+    boat: hsl(223, 91, 60),
+    bus: hsl(229, 48, 48),
+    skiing: hsl(229, 57, 35),
+    car: hsl(231, 14, 36),
+    taxi: hsl(231, 14, 36),
+    tractor: hsl(233, 16, 21),
+    airplane: hsl(277, 76, 47),
+    horseback: hsl(277, 76, 47),
+    inlineSkating: hsl(339, 63, 59),
+    unknown: hsl(0, 0, 60),
+    bogus: hsl(0, 0, 60),
+    stationary: hsl(0, 0, 60)
+);
+
+@function activity-color($activityType) {
+    @return map-get($activity-colors, $activityType);
+}
+
+@each $activityType, $color in $activity-colors {
+    .bg--activity--#{$activityType} {
+        background-color: $color;
+    }
+
+    .bg-inner--activity--#{$activityType} {
+        &:before,
+        &:after {
+            background-color: $color;
+        }
+    }
+}
